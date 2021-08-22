@@ -48,7 +48,7 @@ if(isset($_POST['submit'])){
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                     <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">My Work</a></li>
                 </ul>
             </nav>
         </header>
@@ -58,7 +58,7 @@ if(isset($_POST['submit'])){
             <h1 class="section__title section__title--intro">
                 Hi, I am <strong>Fraol Tesfaye</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">front-end & back-end dev</p>
+            <p class="section__subtitle section__subtitle--intro">Full stack developer</p>
             <img src="fraol.jpg" alt="a picture of fraol smiling at mountain entoto" class="intro__img">
         </section>
         <!-- My services -->
@@ -66,20 +66,29 @@ if(isset($_POST['submit'])){
             <h2 class="section__title section__title--services">What I do</h2>
             <div class="services">
                 <div class="service">
-                    <h3>Design + Development</h3>
-                    <p> Asspiring to be one  
+                    <h3>Front End</h3>
+                    <p> 
+                        <li>HTML5 - CSS3 [Bootstrap | Material Design]</li>
+                        <li>WordPress & PHP </li>
+                        <li>JavaScript [JQuery | ReactJS]</li>  
                         
                     </p>
                 </div> <!-- / service -->
 
                 <div class="service">
                     <h3>back-end</h3>
-                    <p>  work on progress.</p>
+                    <p>
+                        <li>Database management [MySQL | SQLite | PostgreSQL]</li>
+                        <li>Python [PyQt5 | Django]</li>
+
+                    </p>
                 </div> <!-- / service -->
 
                 <div class="service">
-                    <h3>WordPress</h3>
-                    <p>  expected to adapt easily. </p>
+                    <h3>Server-Management</h3>
+                    <p> <li>Puppet</li> 
+                        <li>Networking</li>
+                    </p>
                 </div> <!-- / service -->
             </div> <!-- / services -->
 
@@ -93,9 +102,9 @@ if(isset($_POST['submit'])){
 
            <div class="about-me__body">
                <p>I am a graduate of Mining Engineering i found my passion to be  coding. i am studying programing at holberton school
-                   with the sponsership of ALX-Africa. currently as a student of programing am open to anykind of work
+                   with the sponsership of <strong>ALX-Africa</strong>. currently as a student of programing am open to anykind of work
                </p>
-               <p>i have good knowldge and portfolio on C, HTML5, Css 
+               <p>i have good knowldge and portfolio on C,python3, javascript, HTML5, Css and Database Management.
                </p>
            </div>
 
@@ -103,43 +112,15 @@ if(isset($_POST['submit'])){
         </section>
 
         <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title section__title--work">My work</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="#" class="portfolio__item">
-                    <img src="lapop.jpg" alt="" class="portfolio__img">
-
-
-                </a>
-
-                <!-- Portfolio item 02 -->
-                <a href="#" class="portfolio__item">
-                    <img src="simple_shell.png" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 03 -->
-                <a href="#" class="portfolio__item">
-                    <img src="printf.png" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 04 -->
-                <a href="#" class="portfolio__item">
-                    <img src="Monty_interpreter.png" alt="" class="portfolio__img">
-                </a>
-
-                <!-- Portfolio item 05 -->
-                <a href="#" class="portfolio__item">
-                    <img src="clolap.jpg" alt="" class="portfolio__img">
-                </a>
-                  <!-- Portfolio item 05 -->
-                  <a href="#" class="portfolio__item">
-                    <img src="codewa.jpg" alt="" class="portfolio__img">
-                </a>
-                  <!-- Portfolio item 05 -->
-                  <a href="#" class="portfolio__item">
-                </a>
+        <section class="my-projects" id="projects">
+            <h2 class="section__title section__title--work">Previous Projects</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my projects</p>
+            <div class="projects">
+                <li><a href="https://github.com/Fraol123/simple_shell">Simple_Shell</a></li>
+                <li><a href="https://github.com/Fraol123/monty">Monty</a></li>
+                <li> <a href="https://github.com/Fraol123/printf">Printf</a></li>
+                <li> <a href="https://github.com/Fraol123/AirBnB_clone_v2">AirBnB_Clone</a></li>
+               
             </div>
         </section>
         <!--Fotter-->
