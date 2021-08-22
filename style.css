@@ -772,7 +772,7 @@ header {
 
   background-color: var(--clr-dark);
 
-  color: var(--clr-light));
+  color: var(--clr-accent));
 
   text-align: center;
 
@@ -785,7 +785,7 @@ header {
   display: grid;
 
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-
+  color: var(white)
 }
 
 
