@@ -789,7 +789,7 @@ header {
 }
 
 
-
+/*
 .portfolio__item:focus {
 
   position: relative;
@@ -797,9 +797,9 @@ header {
   z-index: 2;
 
 }
+*/
 
-
-
+/*
 .portfolio__img:hover,
 
 .portfolio__item:focus .portfolio__img {
@@ -809,7 +809,7 @@ header {
   opacity: 0.5;
 
 }
-
+*/
 
 
 /* footer */
