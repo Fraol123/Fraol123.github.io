@@ -1,31 +1,3 @@
-<?php 
-
-    if(isset($_POST['btn-send']))
-    {
-       $UserName = $_POST['UName'];
-       $Email = $_POST['Email'];
-       $Subject = $_POST['Subject'];
-       $Msg = $_POST['msg'];
-
-       if(empty($UserName) || empty($Email) || empty($Subject) || empty($Msg))
-       {
-           header('location:index.php?error');
-       }
-       else
-       {
-           $to = "fraoltesfaye.ft@gmail.com";
-
-           if(mail($to,$Subject,$Msg,$Email))
-           {
-               header("location:index.php?success");
-           }
-       }
-    }
-    else
-    {
-        header("location:index.php");
-    }
-?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -41,6 +13,7 @@
         +Pro:300,900&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="style.css">
+	<link rel="index.php" href="index.php">
     </head>
     <body>
         <header>

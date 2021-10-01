@@ -36,102 +36,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-
-        <!-- font type can be changed here -->
-        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans
-        +Pro:300,900&display=swap" rel="stylesheet">
-
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <header>
-            <div class="logo">
-                <img src="alx-logo.jpg.png" alt="">
-            </div>
-            <button class="nav-toggle" aria-label="toggle navigation">
-                <span class="hamburger"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                    <li class="nav__item"><a href="#projects" class="nav__link">My Work</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <!-- Introduction -->
-        <section class="intro" id="home">
-            <h1 class="section__title section__title--intro">
-                Hi, I am <strong>Fraol Tesfaye</strong>
-            </h1>
-            <p class="section__subtitle section__subtitle--intro">Full stack developer</p>
-            <img src="fraol.jpg" alt="a picture of fraol smiling at mountain entoto" class="intro__img">
-        </section>
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Front End</h3>
-                    <p> 
-                        <li>HTML5 - CSS3 [Bootstrap | Material Design]</li>
-                        <li>WordPress & PHP </li>
-                        <li>JavaScript [JQuery | ReactJS]</li>  
-                        
-                    </p>
-                </div> <!-- / service -->
-
-                <div class="service">
-                    <h3>back-end</h3>
-                    <p>
-                        <li>Database management [MySQL | SQLite | PostgreSQL]</li>
-                        <li>Python [PyQt5 | Django]</li>
-
-                    </p>
-                </div> <!-- / service -->
-
-                <div class="service">
-                    <h3>Server-Management</h3>
-                    <p> <li>Puppet</li> 
-                        <li>Networking</li>
-                    </p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-
-            <a href="#work" class="btn">My Work</a>
-        </section>
-
-        <!-- About me -->
-        <section class="about-me" id="about">
-           <h2 class="section__title section__title--about">Who I am</h2>
-           <p class="section__subtitle section__subtitle--about">Designer & Devloper based out of Addis Abeba</p>
-
-           <div class="about-me__body">
-               <p>I am a graduate of Mining Engineering i found my passion to be  coding. i am studying programing at holberton school
-                   with the sponsership of <strong>ALX-Africa</strong>. currently as a student of programing am open to anykind of work
-               </p>
-               <p>i have good knowldge and portfolio on C,python3, javascript, HTML5, Css and Database Management.
-               </p>
-           </div>
-
-           <img src="fraol-03.jpg" alt="fraol siting on a sofa" class="about-me__img">
-        </section>
-
-        <!-- My Work -->
-        <section class="my-projects" id="projects">
-            <h2 class="section__title section__title--work">Previous Projects</h2>
-            <p class="section__subtitle section__subtitle--work">A selection of my projects</p>
-            <div class="projects">
-                <li><a href="https://github.com/Fraol123/simple_shell">Simple_Shell</a></li>
-                <li><a href="https://github.com/Fraol123/monty">Monty</a></li>
-                <li> <a href="https://github.com/Fraol123/printf">Printf</a></li>
-                <li> <a href="https://github.com/Fraol123/AirBnB_clone_v2">AirBnB_Clone</a></li>
-               
-            </div>
-        </section>
-        <!--Fotter-->
+	<link rel="index.html" href="index.html">
         <div class="contact-section">
 
             <h1>Let's connect</h1>
@@ -144,21 +49,8 @@
               <input type="submit" class="contact-form-btn" value="Send">
             </form>
           </div>
-          
-        <footer class="footer">
-            <a href="email:fraoltesfaye.ft@gmail.com" class="footer__link">fraoltesfaye.ft@gmail.com</a>
-        <ul class="social-list">
-            <li class="social-list__item">
-                <a class="social-link__link"
-                href=" https://twitter.com/fraol_"> <i class="fab fa-twitter"></i></a></li>
-            <li class="social-list__item"><a class="social-link__link"
-                href=" https://github.com/Fraol123"> <i class="fab fa-github"></i></a></li>
-            <li class="social-list__item"><a class="social-link__link"
-                href="https://www.linkedin.com/in/fraol-tesfaye-mts/"><i class="fab fa-linkedin"></i></a></li>
-        </ul>
+	<footer>
         </footer>
-        <script src="index.js"></script>
-
     </body>
 </html>
 
